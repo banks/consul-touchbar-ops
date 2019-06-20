@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11AA3C0F22B843F10007FBA5 /* consul.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AA3C0E22B843F10007FBA5 /* consul.png */; };
 		11B648F422B833F60065CE65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B648F322B833F60065CE65 /* AppDelegate.swift */; };
 		11B648F622B833F60065CE65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B648F522B833F60065CE65 /* ViewController.swift */; };
 		11B648F822B833F80065CE65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11B648F722B833F80065CE65 /* Assets.xcassets */; };
 		11B648FB22B833F80065CE65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B648F922B833F80065CE65 /* Main.storyboard */; };
-		11B6490722B833F80065CE65 /* ConsulTouchOpsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6490622B833F80065CE65 /* ConsulTouchOpsTests.swift */; };
+		11B6490722B833F80065CE65 /* ConsulTouchBarOpsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6490622B833F80065CE65 /* ConsulTouchBarOpsTests.swift */; };
+		11B6491222B838BF0065CE65 /* TouchBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6491122B838BF0065CE65 /* TouchBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,21 +22,23 @@
 			containerPortal = 11B648E822B833F60065CE65 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 11B648EF22B833F60065CE65;
-			remoteInfo = ConsulTouchOps;
+			remoteInfo = ConsulTouchBarOps;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11B648F022B833F60065CE65 /* ConsulTouchOps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConsulTouchOps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11AA3C0E22B843F10007FBA5 /* consul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = consul.png; sourceTree = "<group>"; };
+		11B648F022B833F60065CE65 /* ConsulTouchBarOps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConsulTouchBarOps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11B648F322B833F60065CE65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11B648F522B833F60065CE65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		11B648F722B833F80065CE65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11B648FA22B833F80065CE65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11B648FC22B833F80065CE65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11B648FD22B833F80065CE65 /* ConsulTouchOps.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ConsulTouchOps.entitlements; sourceTree = "<group>"; };
-		11B6490222B833F80065CE65 /* ConsulTouchOpsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConsulTouchOpsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		11B6490622B833F80065CE65 /* ConsulTouchOpsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsulTouchOpsTests.swift; sourceTree = "<group>"; };
+		11B648FD22B833F80065CE65 /* ConsulTouchBarOps.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ConsulTouchBarOps.entitlements; sourceTree = "<group>"; };
+		11B6490222B833F80065CE65 /* ConsulTouchBarOpsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConsulTouchBarOpsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B6490622B833F80065CE65 /* ConsulTouchBarOpsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsulTouchBarOpsTests.swift; sourceTree = "<group>"; };
 		11B6490822B833F80065CE65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B6491122B838BF0065CE65 /* TouchBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,8 @@
 		11B648E722B833F60065CE65 = {
 			isa = PBXGroup;
 			children = (
-				11B648F222B833F60065CE65 /* ConsulTouchOps */,
-				11B6490522B833F80065CE65 /* ConsulTouchOpsTests */,
+				11B648F222B833F60065CE65 /* ConsulTouchBarOps */,
+				11B6490522B833F80065CE65 /* ConsulTouchBarOpsTests */,
 				11B648F122B833F60065CE65 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,40 +71,42 @@
 		11B648F122B833F60065CE65 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				11B648F022B833F60065CE65 /* ConsulTouchOps.app */,
-				11B6490222B833F80065CE65 /* ConsulTouchOpsTests.xctest */,
+				11B648F022B833F60065CE65 /* ConsulTouchBarOps.app */,
+				11B6490222B833F80065CE65 /* ConsulTouchBarOpsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		11B648F222B833F60065CE65 /* ConsulTouchOps */ = {
+		11B648F222B833F60065CE65 /* ConsulTouchBarOps */ = {
 			isa = PBXGroup;
 			children = (
+				11AA3C0E22B843F10007FBA5 /* consul.png */,
 				11B648F322B833F60065CE65 /* AppDelegate.swift */,
 				11B648F522B833F60065CE65 /* ViewController.swift */,
 				11B648F722B833F80065CE65 /* Assets.xcassets */,
 				11B648F922B833F80065CE65 /* Main.storyboard */,
+				11B6491122B838BF0065CE65 /* TouchBarController.swift */,
 				11B648FC22B833F80065CE65 /* Info.plist */,
-				11B648FD22B833F80065CE65 /* ConsulTouchOps.entitlements */,
+				11B648FD22B833F80065CE65 /* ConsulTouchBarOps.entitlements */,
 			);
-			path = ConsulTouchOps;
+			path = ConsulTouchBarOps;
 			sourceTree = "<group>";
 		};
-		11B6490522B833F80065CE65 /* ConsulTouchOpsTests */ = {
+		11B6490522B833F80065CE65 /* ConsulTouchBarOpsTests */ = {
 			isa = PBXGroup;
 			children = (
-				11B6490622B833F80065CE65 /* ConsulTouchOpsTests.swift */,
+				11B6490622B833F80065CE65 /* ConsulTouchBarOpsTests.swift */,
 				11B6490822B833F80065CE65 /* Info.plist */,
 			);
-			path = ConsulTouchOpsTests;
+			path = ConsulTouchBarOpsTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		11B648EF22B833F60065CE65 /* ConsulTouchOps */ = {
+		11B648EF22B833F60065CE65 /* ConsulTouchBarOps */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11B6490B22B833F80065CE65 /* Build configuration list for PBXNativeTarget "ConsulTouchOps" */;
+			buildConfigurationList = 11B6490B22B833F80065CE65 /* Build configuration list for PBXNativeTarget "ConsulTouchBarOps" */;
 			buildPhases = (
 				11B648EC22B833F60065CE65 /* Sources */,
 				11B648ED22B833F60065CE65 /* Frameworks */,
@@ -110,14 +116,14 @@
 			);
 			dependencies = (
 			);
-			name = ConsulTouchOps;
-			productName = ConsulTouchOps;
-			productReference = 11B648F022B833F60065CE65 /* ConsulTouchOps.app */;
+			name = ConsulTouchBarOps;
+			productName = ConsulTouchBarOps;
+			productReference = 11B648F022B833F60065CE65 /* ConsulTouchBarOps.app */;
 			productType = "com.apple.product-type.application";
 		};
-		11B6490122B833F80065CE65 /* ConsulTouchOpsTests */ = {
+		11B6490122B833F80065CE65 /* ConsulTouchBarOpsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11B6490E22B833F80065CE65 /* Build configuration list for PBXNativeTarget "ConsulTouchOpsTests" */;
+			buildConfigurationList = 11B6490E22B833F80065CE65 /* Build configuration list for PBXNativeTarget "ConsulTouchBarOpsTests" */;
 			buildPhases = (
 				11B648FE22B833F80065CE65 /* Sources */,
 				11B648FF22B833F80065CE65 /* Frameworks */,
@@ -128,9 +134,9 @@
 			dependencies = (
 				11B6490422B833F80065CE65 /* PBXTargetDependency */,
 			);
-			name = ConsulTouchOpsTests;
-			productName = ConsulTouchOpsTests;
-			productReference = 11B6490222B833F80065CE65 /* ConsulTouchOpsTests.xctest */;
+			name = ConsulTouchBarOpsTests;
+			productName = ConsulTouchBarOpsTests;
+			productReference = 11B6490222B833F80065CE65 /* ConsulTouchBarOpsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -152,7 +158,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 11B648EB22B833F60065CE65 /* Build configuration list for PBXProject "ConsulTouchOps" */;
+			buildConfigurationList = 11B648EB22B833F60065CE65 /* Build configuration list for PBXProject "ConsulTouchBarOps" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -165,8 +171,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				11B648EF22B833F60065CE65 /* ConsulTouchOps */,
-				11B6490122B833F80065CE65 /* ConsulTouchOpsTests */,
+				11B648EF22B833F60065CE65 /* ConsulTouchBarOps */,
+				11B6490122B833F80065CE65 /* ConsulTouchBarOpsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -176,6 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11AA3C0F22B843F10007FBA5 /* consul.png in Resources */,
 				11B648F822B833F80065CE65 /* Assets.xcassets in Resources */,
 				11B648FB22B833F80065CE65 /* Main.storyboard in Resources */,
 			);
@@ -196,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11B648F622B833F60065CE65 /* ViewController.swift in Sources */,
+				11B6491222B838BF0065CE65 /* TouchBarController.swift in Sources */,
 				11B648F422B833F60065CE65 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11B6490722B833F80065CE65 /* ConsulTouchOpsTests.swift in Sources */,
+				11B6490722B833F80065CE65 /* ConsulTouchBarOpsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +221,7 @@
 /* Begin PBXTargetDependency section */
 		11B6490422B833F80065CE65 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 11B648EF22B833F60065CE65 /* ConsulTouchOps */;
+			target = 11B648EF22B833F60065CE65 /* ConsulTouchBarOps */;
 			targetProxy = 11B6490322B833F80065CE65 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -349,15 +357,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ConsulTouchOps/ConsulTouchOps.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = ConsulTouchOps/Info.plist;
+				INFOPLIST_FILE = ConsulTouchBarOps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = de.banksco.ConsulTouchOps;
+				PRODUCT_BUNDLE_IDENTIFIER = de.banksco.ConsulTouchBarOps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -367,15 +374,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ConsulTouchOps/ConsulTouchOps.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = ConsulTouchOps/Info.plist;
+				INFOPLIST_FILE = ConsulTouchBarOps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = de.banksco.ConsulTouchOps;
+				PRODUCT_BUNDLE_IDENTIFIER = de.banksco.ConsulTouchBarOps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -388,16 +394,16 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = ConsulTouchOpsTests/Info.plist;
+				INFOPLIST_FILE = ConsulTouchBarOpsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = de.banksco.ConsulTouchOpsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = de.banksco.ConsulTouchBarOpsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConsulTouchOps.app/Contents/MacOS/ConsulTouchOps";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConsulTouchBarOps.app/Contents/MacOS/ConsulTouchBarOps";
 			};
 			name = Debug;
 		};
@@ -408,23 +414,23 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = ConsulTouchOpsTests/Info.plist;
+				INFOPLIST_FILE = ConsulTouchBarOpsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = de.banksco.ConsulTouchOpsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = de.banksco.ConsulTouchBarOpsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConsulTouchOps.app/Contents/MacOS/ConsulTouchOps";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConsulTouchBarOps.app/Contents/MacOS/ConsulTouchBarOps";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		11B648EB22B833F60065CE65 /* Build configuration list for PBXProject "ConsulTouchOps" */ = {
+		11B648EB22B833F60065CE65 /* Build configuration list for PBXProject "ConsulTouchBarOps" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				11B6490922B833F80065CE65 /* Debug */,
@@ -433,7 +439,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		11B6490B22B833F80065CE65 /* Build configuration list for PBXNativeTarget "ConsulTouchOps" */ = {
+		11B6490B22B833F80065CE65 /* Build configuration list for PBXNativeTarget "ConsulTouchBarOps" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				11B6490C22B833F80065CE65 /* Debug */,
@@ -442,7 +448,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		11B6490E22B833F80065CE65 /* Build configuration list for PBXNativeTarget "ConsulTouchOpsTests" */ = {
+		11B6490E22B833F80065CE65 /* Build configuration list for PBXNativeTarget "ConsulTouchBarOpsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				11B6490F22B833F80065CE65 /* Debug */,

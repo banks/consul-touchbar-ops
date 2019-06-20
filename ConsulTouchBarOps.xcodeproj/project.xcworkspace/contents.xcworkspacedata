@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ConsulTouchOps.xcodeproj">
+      location = "self:/Users/banks/src/hashicorp/ConsulTouchBarOps/ConsulTouchBarOps.xcodeproj">
    </FileRef>
 </Workspace>

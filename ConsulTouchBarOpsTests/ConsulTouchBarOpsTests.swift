@@ -1,15 +1,15 @@
 //
-//  ConsulTouchOpsTests.swift
-//  ConsulTouchOpsTests
+//  ConsulTouchBarOpsTests.swift
+//  ConsulTouchBarOpsTests
 //
 //  Created by Paul Banks on 17/06/2019.
 //  Copyright © 2019 banks. All rights reserved.
 //
 
 import XCTest
-@testable import ConsulTouchOps
+@testable import ConsulTouchBarOps
 
-class ConsulTouchOpsTests: XCTestCase {
+class ConsulTouchBarOpsTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
