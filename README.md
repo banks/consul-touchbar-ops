@@ -2,9 +2,7 @@
 
 ![Consul TouchBarOps](touchbarops.png?raw=true "Consul TouchBarOps")
 
-This is a demo toy for a talk I gave at HashiConf EU 2019.
-
-Video link will be added when available.
+This is a demo toy for a [talk I gave at HashiConf EU 2019](https://youtu.be/GXDpeZo78UY?t=1264).
 
 ## Usage
 
